@@ -19,17 +19,16 @@ export default function PagePlaceholder({
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
           {title}
         </h1>
-        <p className="text-gray-600 text-lg mb-8">
-          {description}
-        </p>
-        
+        <p className="text-gray-600 text-lg mb-8">{description}</p>
+
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-8">
           <div className="flex items-center gap-2 text-blue-700 justify-center mb-2">
             <Sparkles className="w-5 h-5" />
             <span className="font-semibold">Pro Tip</span>
           </div>
           <p className="text-sm text-blue-600">
-            Continue exploring StudyHub or reach out to suggest what should go here!
+            Continue exploring StudyHub or reach out to suggest what should go
+            here!
           </p>
         </div>
 

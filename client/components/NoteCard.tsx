@@ -43,11 +43,15 @@ export default function NoteCard({
             <FileText className="w-6 h-6 text-white" />
           </div>
           <div className="flex-1">
-            <h3 className="font-semibold text-gray-900 line-clamp-2">{title}</h3>
+            <h3 className="font-semibold text-gray-900 line-clamp-2">
+              {title}
+            </h3>
             <p className="text-sm text-gray-600 mt-1">{subject}</p>
           </div>
         </div>
-        <span className={`px-2 py-1 rounded-full text-xs font-medium whitespace-nowrap ${difficultyColors[difficulty]}`}>
+        <span
+          className={`px-2 py-1 rounded-full text-xs font-medium whitespace-nowrap ${difficultyColors[difficulty]}`}
+        >
           {difficulty.charAt(0).toUpperCase() + difficulty.slice(1)}
         </span>
       </div>
@@ -76,7 +80,9 @@ export default function NoteCard({
         </div>
 
         {/* Author */}
-        <p className="text-xs text-gray-600 mb-4">By <span className="font-medium text-gray-900">{author}</span></p>
+        <p className="text-xs text-gray-600 mb-4">
+          By <span className="font-medium text-gray-900">{author}</span>
+        </p>
 
         {/* Download Button */}
         <button

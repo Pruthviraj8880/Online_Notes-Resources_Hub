@@ -19,16 +19,28 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#subjects" className="text-gray-700 hover:text-primary transition-colors">
+            <a
+              href="#subjects"
+              className="text-gray-700 hover:text-primary transition-colors"
+            >
               Subjects
             </a>
-            <a href="#notes" className="text-gray-700 hover:text-primary transition-colors">
+            <a
+              href="#notes"
+              className="text-gray-700 hover:text-primary transition-colors"
+            >
               Notes
             </a>
-            <a href="#features" className="text-gray-700 hover:text-primary transition-colors">
+            <a
+              href="#features"
+              className="text-gray-700 hover:text-primary transition-colors"
+            >
               Features
             </a>
-            <a href="#contact" className="text-gray-700 hover:text-primary transition-colors">
+            <a
+              href="#contact"
+              className="text-gray-700 hover:text-primary transition-colors"
+            >
               Contact
             </a>
           </nav>
@@ -54,16 +66,28 @@ export default function Header() {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav className="md:hidden pb-4 border-t border-gray-200 mt-2 space-y-2">
-            <a href="#subjects" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors">
+            <a
+              href="#subjects"
+              className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
+            >
               Subjects
             </a>
-            <a href="#notes" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors">
+            <a
+              href="#notes"
+              className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
+            >
               Notes
             </a>
-            <a href="#features" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors">
+            <a
+              href="#features"
+              className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
+            >
               Features
             </a>
-            <a href="#contact" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors">
+            <a
+              href="#contact"
+              className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
+            >
               Contact
             </a>
             <button className="w-full mt-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-cyan-500 text-white rounded-lg font-medium hover:shadow-lg transition-all duration-200">

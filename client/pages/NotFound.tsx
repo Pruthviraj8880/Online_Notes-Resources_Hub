@@ -33,7 +33,8 @@ const NotFound = () => {
             </code>
           </p>
           <p className="text-gray-600 mb-8">
-            The page might have been moved or deleted. Let's get you back on track!
+            The page might have been moved or deleted. Let's get you back on
+            track!
           </p>
 
           <div className="flex flex-col gap-3">
